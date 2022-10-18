@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Básicas</title>
+<style type="text/css">
+
+*{
+    padding: 10px;
+    margin: 0px;
+}
+
+
+#header{
+    margin: auto;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8f89e2;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+ul, ol {
+list-style: none;
+}
+.nav li a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover {
+background-color: #434343;
+}
+.nav > li {
+    float: left;
+}
+.nav li ul {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover> ul{
+    display: block;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 100px;
+}
+
+</style>
+</head>
+
+
+<header>
+<body>
+    <div id="header">
+        <a href="#" class="logo">DISEÑO DE SITIOS WEB</a>
+<ul class="nav">
+    <li><a href="">Inicio</a></li>
+    <li><a href="">Temas</a>
+    <ul>
+        <li><a href="" >Introducción a HTML</a>
+            <li><a href="">Conceptos de HTML</a>
+    </ul>
+    </li>
+    <li><a href="">Recursos Dígitales</a>
+        <ul>
+            <li><a href="">Introducción a HTML</a>
+                <li><a href="">Conceptos de HTML</a>
+        </ul>
+    </li>
+    <li><a href="">Aprendizaje</a>
+        <ul>
+            <li><a href="">Actividad 1</a>
+                <li><a href="">Actividad 2</a>
+        </ul>
+    </li>
+    <li><a href="">Acerca de</a></li>
+    <li><a href="">Autor</a></li>
+</ul>
+    </div>
+
+        <section>
+            <h1>ATRIBUTOS DE CONFIGURACIÓN</h1>
+            <img src="./Atributos.PNG" alt="">
+            <p>
+                Algunos elementos HTML que brindan soporte para CORS, tienen un atributo crossorigin (propiedad crossOrigin)
+                     que te permite configurar las solicitudes CORS para los datos extraídos del elemento.
+            </p>
+        </section>
+   
+
+</body>
+</header>
+</html>
